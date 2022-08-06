@@ -13,8 +13,9 @@
     <h4 align="center">Ravindra Kumar Singh</h4>
     <h4 align="center">Satyam Maurya</h4>
 </p>
-<h3 align="left"> # Problem Statement Title:</h3><h4>Mechanism to help rural people to self select for receiving benefit offered underGovt. scheme.</h4>
-
+<h3> align="left> # Problem Statement Title:</h3><h4>Mechanism to help rural people to self select for receiving benefit offered underGovt. scheme.</h4>
+<h3> align="left> # Description:</h3><h4>	
+"In existing scenario, the approach followed for beneficiary’s selection for various schemes istop down. All rural development programs/schemes aim at extending maximum benefits to rural poor. Assessment of eligibility is done by various officials assigned at Centre/States etc. A system is needed wherethe beneficiary can get selected into schemes and offer himself to tracked using unique identifier. Sample Data Required: Yes"</h4>
 <h3 align="left"> # 💻 Tecnology Used :</h3>
 
 <p align="left"> 

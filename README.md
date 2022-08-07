@@ -2,7 +2,7 @@
 <div align="center">
   <img width="100" height="100" alt="team Visionn" src="https://user-images.githubusercontent.com/69837173/183259816-e94e977e-eb5f-4c9f-9cf6-66a80507d1b1.png" >
 </div>
-<h1 align="center">Team-Vision</h1>
+<h1 align="center">Team-Visionn</h1>
 <h3 align="center">|SIH 2022 |</h3>
 <h3 align="center">Team Leader: Abhishek Singh</h3>
 <h3 align="center">Team Members:</h3>

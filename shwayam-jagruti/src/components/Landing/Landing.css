@@ -48,11 +48,29 @@ img.landing-img{
 .top-scheme-heading h1{
 font-size: 40px;
 text-align: center;
-
+box-shadow: 5px 10px #888888;
 border-radius: 30px;
 background-color: #D9D9D9;
 }
 .top-scheme-heading{
     margin-top: 10px;
 
+}
+.top-scheme-row{
+    margin-top: 30px;
+}
+.card-body{
+    background-color:#D9D9D9;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+}
+.card-title{
+    font-size: 40px;
+}
+.card-text{
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #FFFEFE;
+    padding:8px;
 }

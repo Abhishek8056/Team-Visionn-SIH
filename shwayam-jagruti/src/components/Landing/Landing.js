@@ -20,7 +20,7 @@ const Landing = () => {
                     </div>
                     <div className=" img-section col-sm-8">
                     
-                        <img  className=" landing-img" src="img/landing.png" alt="" />
+                        <img  className=" landing-img" src="img/img1.svg" alt="" />
                     </div>
                 </div>
             </div>

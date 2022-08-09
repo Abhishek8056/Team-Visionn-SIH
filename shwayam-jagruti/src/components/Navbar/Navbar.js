@@ -28,14 +28,14 @@ const Navbar = () => {
               </li>
           
               <li>
-                <div class="btn-group " role="group" aria-label="Basic example">
+                <div class="btn-group" role="group" aria-label="Basic example">
                   <button type="button" class="btn btn-outline-none">A-</button>
                   <button type="button" class="btn btn-outline-none">A</button>
                   <button type="button" class="btn btn-outline-none">A+</button>
                 </div>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Login</a>
+                <a className="nav-link active" aria-current="page" href="#">Login</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">Register</a>

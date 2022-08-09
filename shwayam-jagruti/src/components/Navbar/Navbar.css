@@ -48,3 +48,11 @@ li.nav-item :hover{
 .btn-group:hover{
     background-color: #EAECEE;
 }
+
+.scheme-box{
+    background-color: #EF9A9A;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px rgba(128, 121, 121, 0.04);
+}

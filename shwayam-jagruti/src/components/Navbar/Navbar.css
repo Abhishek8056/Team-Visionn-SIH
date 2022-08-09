@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    background-color: #92B4EC;
+    border-radius: 30px;
+    color:black;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.navbar-nav{
+    padding:2px 20px 2px 20px;
+}
+.navbar-brand{
+    padding-left: 20px;
+}
+.dropdown-men{
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.language{
+    border-radius: 10px;
+    
+    background-color:#fff;
+}
+.language:hover{
+    background-color:#EAECEE ;
+}
+li.nav-item {
+background-color: white;
+border-radius: 10px;
+margin:0 10px 0 10px;
+color: black;
+font-weight: 600;
+}
+ a .nav-link{
+    color:black;
+    font-weight: 700;
+}
+li.nav-item :hover{
+    background-color:#EAECEE ;
+    border-radius: 10px;
+}
+.btn-group{
+    background-color: #fff;
+}
+.btn-group:hover{
+    background-color: #EAECEE;
+}

@@ -1,11 +1,15 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.css'; 
+import Navbar from './components/Navbar/Navbar';
+import Landing from './components/Landing/Landing';
+
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <Navbar/>
+      <Landing/>
+    </>
   );
 }
 

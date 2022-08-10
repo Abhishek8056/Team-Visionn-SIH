@@ -1,41 +1,55 @@
 
-<div align="center">
-  <img width="100" height="100" alt="team Visionn" src="https://user-images.githubusercontent.com/69837173/183259816-e94e977e-eb5f-4c9f-9cf6-66a80507d1b1.png" >
-</div>
-<h1 align="center">Team-Visionn</h1>
-<h3 align="center">|SIH 2022 |</h3>
-<h3 align="center">Team Leader: Abhishek Singh</h3>
-<h3 align="center">Team Members:</h3>
-<p align="center">
-    <h4 align="center"> Anshul Diwakar </h4>
-    <h4 align="center"> Aakanksha Mourya</h4>
-    <h4 align="center"> Shyamji Tripathi</h4>
-    <h4 align="center">Ravindra Kumar Singh</h4>
-    <h4 align="center">Satyam Maurya</h4>
-</p>
-<h3 align="left">#Problem Statement ID:SH1007</h3>
-<h3 align="left">#Technology Bucket:</h3><h4>Coding and Programming</h4>
-<h3 align="left"> # Problem Statement Title:</h3><h4>Mechanism to help rural people to self select for receiving benefit offered underGovt. scheme.</h4>
-<h3 align="left"> # Description:</h3><h4>	
-"In existing scenario, the approach followed for beneficiary’s selection for various schemes istop down. All rural development programs/schemes aim at extending maximum benefits to rural poor. Assessment of eligibility is done by various officials assigned at Centre/States etc. A system is needed wherethe beneficiary can get selected into schemes and offer himself to tracked using unique identifier. Sample Data Required: Yes"</h4>
-<h3 align="left">#Abstract/Summary:</h3><h4>Before independence, Indian society was under the slavery of Britishers and ordinary Indians do not have basic amenities for their survival. So, the government after Azadi [independence] decided to fill this gap by providing help to its citizens through various government schemes. The idea was great but implementation and planning didn’t go well, as time pass by normal people belonging to the rural area who have less knowledge was now dependent on a government official for getting information about schemes, are they eligible or not, how to apply and for tracking the status of the scheme also, hence this created a dependency for rural people and because of this many needy people were not able to get their share of scheme benefits. So, we team visionn are proposing a solution for this problem. As our team members also have their roots back in their village they have seen this problem through their own eyes and also experienced it sometime in their life. After spending a long time on research we have come up with a solution. Our Solution is to provide a single platform for users where they can automatically get scheme suggestions based on their profile(just like their Instagram feed which is fully personalised ) and also have a tracking mechanism on-site through which they can check the status of their schemes so that they don't have to move from one site to another. Automatic suggestion of scheme is done through two way processed one- by matching user details with various schemes parameters (Scheme data and user data both will be saved on our database) and the second process is through machine learning model which will take user data as an input and give back the result. Our machine model will suggest schemes by matching user data with common parameters(after researching 68 schemes we found out that there are mainly 4 parameters like age, gender, income, bank account which are used to check individual eligibility for a scheme), and it will also suggest schemes based on the demographic location of users. We are also using Aadhaar number for verification of individual identity. This will help us in two ways: first, it will give us basic user details, and second will solve the problem of a single user signing through two accounts and applying in the same scheme two times. Also, have a government section as the government brings news schemes every year and have to update schemes related information regularly hence it will help them convey their schemes to ordinary peoples easily. We will send regular updates about schemes in which the user is eligible. In this way, we will help people to apply on time and will save time. Our Solution helps both government and citizens by creating a bridge through which they can easily help each other. At last, we are bringing a positive change for rural people by eliminating their dependency on government officials, suggesting accurate and personalised schemes which will help them opt-in that scheme which will resolve their problems. It will also save time and money for both governments, from normal people's perspective- searching required schemes, bribing officials for checking their eligibility both cases will vanish and from government perspective they now have to spend little less on advertising about schemes, will reduce the workload of officials. So, it will be a win-win situation for all.</h4>
-<h3 align="left"> # 💻 Tecnology Used :</h3>
+# Team Visionn [ SIH-2022 ] 
+
+## Team Leader `` Abhishek Singh ``
+
+## Team Memebers
+```
+   1. Anshul Diwaker
+   2. Aakansha Morya
+   3. Shyamji Tripathi
+   4. Ravindra Kumar
+   5. Satyam maurya
+```
+
+### Problem Statement ID: ``SH1007``
+
+### Teck Stack
+```
+1. React.Js [ For Front-End Part ]
+```
+
+### Problem Statement
+```
+Mechanism to help rural people to self select for receiving benefit offered under Government schemes.
+```
+
+### Description
+```
+In existing scenario, the approach followed for beneficiary’s selection for various schemes is top down. 
+All rural development programs/schemes aim at extending maximum benefits to rural poor. 
+Assessment of eligibility is done by various officials assigned at Centre/States etc. 
+A system is needed wherethe beneficiary can get selected into schemes and offer himself to tracked using unique identifier.
+```
+<br>
+<br>
 
 <p align="left"> 
-    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-    <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> 
-    <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> 
-  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
-  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> 
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
-  <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a>
-   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
+    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> &nbsp;
+    <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> &nbsp;
+    <a href="https://www.figma.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> &nbsp;
+  <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> &nbsp; 
+  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> &nbsp; 
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> &nbsp;
+  <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> &nbsp;
+   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>  &nbsp;
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-   </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
-   <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> 
-  <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> 
-  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> 
-  <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> 
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> 
-  <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> 
+   </a> &nbsp;
+   <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> &nbsp;
+   <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> &nbsp;
+  <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> &nbsp;
+  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> &nbsp;
+  <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> &nbsp;
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> &nbsp;
+  <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> &nbsp;
 </p>

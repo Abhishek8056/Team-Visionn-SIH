@@ -35,6 +35,9 @@ const Navbar = () => {
                 </div>
               </li>
               <li className="nav-item">
+              <i class="fa-solid fa-moon-over-sun"></i>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">Login</a>
               </li>
               <li className="nav-item">

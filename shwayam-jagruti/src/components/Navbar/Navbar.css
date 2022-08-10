@@ -34,6 +34,7 @@ border-radius: 10px;
 margin:0 10px 0 10px;
 color: black;
 font-weight: 600;
+margin-bottom: 10px;
 }
  a .nav-link{
     color:black;
@@ -45,6 +46,7 @@ li.nav-item :hover{
 }
 .btn-group{
     background-color: #fff;
+    align-items: center;
 }
 .btn-group:hover{
     background-color: #EAECEE;

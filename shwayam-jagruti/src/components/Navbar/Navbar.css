@@ -46,7 +46,10 @@ li.nav-item :hover{
 }
 .btn-group{
     background-color: #fff;
-    align-items: center;
+    box-shadow: none;
+}
+.btn{
+    box-shadow: none;
 }
 .btn-group:hover{
     background-color: #EAECEE;

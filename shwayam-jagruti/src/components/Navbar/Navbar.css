@@ -7,7 +7,7 @@
     border-radius: 30px;
     margin-top:10px;
     color:black;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    box-shadow: 8px 8px #000000;
 }
 .navbar-nav{
     padding:2px 20px 2px 20px;

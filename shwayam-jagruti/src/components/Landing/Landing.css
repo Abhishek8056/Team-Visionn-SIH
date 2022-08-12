@@ -129,7 +129,7 @@ img.landing-img {
   margin: 0px 0px 0px 0px;
   background-color: #ffe69a;
 }
-<<<<<<< Updated upstream
+
 .card-top{
     margin-bottom: 20px;
 }
@@ -137,8 +137,7 @@ img.landing-img {
     background-color:#D9D9D9;
     padding: 25px;
     border-radius: 10px;
-    box-shadow: 5px 10px #888888;
-=======
+    box-shadow: 5px 10px #888888;}
 
 .Footer-Section a {
   color: black;
@@ -148,7 +147,7 @@ img.landing-img {
 
 .Footer-Section a:hover {
   text-decoration: underline;
->>>>>>> Stashed changes
+
 }
 
 .hr-line-footer {

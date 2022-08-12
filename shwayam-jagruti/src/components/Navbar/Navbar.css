@@ -36,7 +36,7 @@ color: black;
 font-weight: 600;
 margin-bottom: 10px;
 }
- a .nav-link{
+a .nav-link{
     color:black;
     font-weight: 700;
 }
@@ -61,4 +61,9 @@ li.nav-item :hover{
     text-align: center;
     color: white;
     text-shadow: 2px rgba(128, 121, 121, 0.04);
+}
+.darkmode{
+  align-items: center; 
+  padding-top: 10px;
+  padding-right: 10px;
 }

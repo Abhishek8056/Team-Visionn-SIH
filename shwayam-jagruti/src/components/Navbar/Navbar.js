@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css';
+import {BsMask} from "react-icons/bs";
 
 
 
@@ -15,6 +16,7 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li className='darkmode'><BsMask/></li>
               <li className="nav-item dropdown">
                 <a className="nav-link language dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   English

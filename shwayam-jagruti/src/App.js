@@ -2,15 +2,14 @@
 import './App.css'; 
 import Navbar from './components/Navbar/Navbar';
 import Landing from './components/Landing/Landing';
-import Login2 from './components/main_login_page/Login2';
+import Login from './components/main_login_page/Login';
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Landing/>
-      <Login2/>
-      <authIn/>
+  <Navbar/>
+  <Landing/>
+  <Login/>
     </>
   );
 }

@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+.outerbox{
+    background-color:white;
+}
+.card{
+    border:0;
+}
+
+.card-body{
+    margin:20px;
+}
+.btn.login.btn-outline-primary{
+    margin:10px 100px;
+    font-size: 28px;
+  color: black;
+  background-color: #ffd24c;
+  border-color: #000000;
+  border-radius: 30px;
+  font-weight: 600;
+  box-shadow: 8px 8px #000000;
+}
+.btn.login.btn-outline-primary:hover {
+    background-color: #fdc828;
+    color: black;
+    transform: scale(1.02);
+    border-color: #000000;
+    box-shadow: 8px 8px #000000;
+    
+  }

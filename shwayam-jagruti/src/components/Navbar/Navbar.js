@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="container">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">SWAYAM JAGRUTI</a>
+          <Link className="navbar-brand" to="/">SWAYAM JAGRUTI</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -19,14 +19,14 @@ const Navbar = () => {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className='darkmode'><BsMask/></li>
               <li className="nav-item dropdown">
-                <a className="nav-link language dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <Link className="nav-link language dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   English
-                </a>
+                </Link>
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="/">Hindi</a></li>
-                  <li><a className="dropdown-item" href="/">Punjabi</a></li>
+                  <li><Link className="dropdown-item" to="/">Hindi</Link></li>
+                  <li><Link className="dropdown-item" to="/">Punjabi</Link></li>
                   <li><hr className="dropdown-divider" /></li>
-                  <li><a className="dropdown-item" href="/">Something else here</a></li>
+                  <li><Link className="dropdown-item" to="/">Something else here</Link></li>
                 </ul>
               </li>
           
@@ -41,10 +41,10 @@ const Navbar = () => {
               <i class="fa-solid fa-moon-over-sun"></i>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">Login</a>
+                <Link className="nav-link active" aria-current="page" to="/">Login</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">Register</a>
+                <Link className="nav-link" to="/">Register</Link>
               </li>
             </ul>
 

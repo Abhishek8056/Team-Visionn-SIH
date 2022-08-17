@@ -49,144 +49,144 @@ const Landing = () => {
                     aria-labelledby="dropdownMenuButton1"
                   >
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Andhra Pradesh
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Arunachal Pradesh
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Assam
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Bihar
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Chhattisgarh
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Goa
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Gujarat
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Haryana
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Himachal Pradesh
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Jharkhand
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Karnataka
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Kerala
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Madhya Pradesh
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Maharashtra
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Manipur
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Meghalaya
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Mizoram
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Nagaland
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Odisha
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Punjab
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Rajasthan
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Sikkim
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Tamil Nadu
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Telangana
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Tripura
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Uttarakhand
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         Uttar Pradesh
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="/">
+                      <Link class="dropdown-item" to="/">
                         West Bengal
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -274,47 +274,47 @@ const Landing = () => {
               <div className="footer-link col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                 <p>
-                  <a href="/">
+                  <Link to="/">
                     <b>Contact Us</b>
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="/">
+                  <Link to="/">
                     <b>About Us</b>
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="/">
+                  <Link to="/">
                     <b>Help</b>
-                  </a>
+                  </Link>
                 </p>
               </div>
 
               <div className="footer-link col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                 <p>
-                  <a href="/">
+                  <Link to="/">
                     <b>Center Schemes</b>
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="/">
+                  <Link to="/">
                     <b>State Schemes</b>
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a href="/">
+                  <Link to="/">
                     <b>Feedback</b>
-                  </a>
+                  </Link>
                 </p>
               </div>
 
               <div className="footer-link col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                 <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" />
                 <p>
-                  <a href="/">
+                  <Link to="/">
                     <b>Sitemap</b>
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -322,9 +322,9 @@ const Landing = () => {
           <hr className="hr-line-footer"></hr>
           <div className="footer-link footer-copyright text-center py-3">
            
-            <a href="/">
+            <Link to="/">
               <b>© 2022 Copyright : Shwayam-Jagruti</b>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

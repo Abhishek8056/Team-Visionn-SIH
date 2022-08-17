@@ -1,5 +1,6 @@
 import React from "react";
 import "./User_dashboard.css";
+import { Link } from 'react-router-dom';
 
 const User_dashboard = () => {
     return(
@@ -14,48 +15,48 @@ const User_dashboard = () => {
             <ul class="list-unstyled components">
                 <p>Dummy Heading</p>
                 <li class="active">
-                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                    <Link to="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</Link>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
-                            <a href="/">Home 1</a>
+                            <Link to="/">Home 1</Link>
                         </li>
                         <li>
-                            <a href="/">Home 2</a>
+                            <Link to="/">Home 2</Link>
                         </li>
                         <li>
-                            <a href="/">Home 3</a>
+                            <Link to="/">Home 3</Link>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/">About</a>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                    <Link to="/">About</Link>
+                    <Link to="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</Link>
                     <ul class="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                            <a href="/">Page 1</a>
+                            <Link to="/">Page 1</Link>
                         </li>
                         <li>
-                            <a href="/">Page 2</a>
+                            <Link to="/">Page 2</Link>
                         </li>
                         <li>
-                            <a href="/">Page 3</a>
+                            <Link to="/">Page 3</Link>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/">Portfolio</a>
+                    <Link to="/">Portfolio</Link>
                 </li>
                 <li>
-                    <a href="/">Contact</a>
+                    <Link to="/">Contact</Link>
                 </li>
             </ul>
 
             <ul class="list-unstyled CTAs">
                 <li>
-                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
+                    <Link to="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</Link>
                 </li>
                 <li>
-                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
+                    <Link to="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</Link>
                 </li>
             </ul>
         </nav>
@@ -78,16 +79,16 @@ const User_dashboard = () => {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="/">Page</a>
+                                <Link class="nav-link" to="/">Page</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/">Page</a>
+                                <Link class="nav-link" to="/">Page</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/">Page</a>
+                                <Link class="nav-link" to="/">Page</Link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/">Page</a>
+                                <Link class="nav-link" to="/">Page</Link>
                             </li>
                         </ul>
                     </div>

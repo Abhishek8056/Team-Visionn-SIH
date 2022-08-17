@@ -1,20 +1,29 @@
-import React from 'react'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 //MessagePort{Route,Switch} from  
 import './App.css'; 
-import Navbar from './components/Navbar/Navbar';
-import Landing from './components/Landing/Landing';
-import Login from './components/main_login_page/Login';
-import User_dashbord from './components/User_dashbord/User_dashboard';
+import Navbar from './Components/Navbar/Navbar.js';
+import Landing from './Components/Landing/Landing';
+import Login from './Components/main_login_page/Login';
+
+import UserDashboard from './Components/UserDashboard/UserDashboard';
 
 function App() {
   return (
-    <>
-  <Navbar/>
-  <Landing/>
-  <Login/>
-  <User_dashbord/>
-    </>
+    <div className="App">
+        <Navbar />
+        <Landing/>
+        <Routes>
+          <Route path="/Landing" exact component={() => <Landing />} />
+          <Route path="/login" exact component={() => <Login />} />
+          <Route path="/Navbar" exact component={() => <Navbar />} />
+          <Route path="/UserDashboard" exact component={() => <UserDashboard />} />
+        </Routes>
+
+     
+    </div>
   );
+  
 }
 
 export default App;

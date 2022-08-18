@@ -10,8 +10,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
     "react-script": "^2.0.5",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "5.0.1"
   },
   "watch": {
     "build": {
@@ -45,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "web-vitals": "^2.1.4"
   }
 }

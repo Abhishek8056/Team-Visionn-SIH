@@ -15,7 +15,7 @@ const User_dashboard = () => {
             <ul class="list-unstyled components">
                 <p>Dummy Heading</p>
                 <li class="active">
-                    <Link to="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</Link>
+                    <Link to="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle-a">Home</Link>
                     <ul class="collapse list-unstyled" id="homeSubmenu">
                         <li>
                             <Link to="/">Home 1</Link>
@@ -64,10 +64,10 @@ const User_dashboard = () => {
        
         <div id="content">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar-a navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
 
-                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                    <button type="button" id="sidebarCollapse" class="navbar-btn-a">
                         <span></span>
                         <span></span>
                         <span></span>

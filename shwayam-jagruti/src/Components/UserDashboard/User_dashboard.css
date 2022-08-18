@@ -22,7 +22,7 @@ a, a:hover, a:focus {
     transition: all 0.3s;
 }
 
-.navbar {
+.navbar-a {
     padding: 15px 10px;
     background: #fff;
     border: none;
@@ -31,7 +31,7 @@ a, a:hover, a:focus {
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-btn {
+.navbar-btn-a {
     box-shadow: none;
     outline: none !important;
     border: none;
@@ -105,7 +105,7 @@ a[data-toggle="collapse"] {
     position: relative;
 }
 
-.dropdown-toggle::after {
+.dropdown-toggle-a::after {
     display: block;
     position: absolute;
     top: 50%;

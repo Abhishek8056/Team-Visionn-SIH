@@ -24,7 +24,7 @@ const Landing = () => {
             </button>
           </div>
           <div className=" img-section col-sm-8">
-            <img className=" landing-img" src="img/img1.svg" alt="" />
+            <img className=" landing-img" src="img/img2.svg" alt="" />
           </div>
         </div>
         <div className="scheme-box">
@@ -32,11 +32,11 @@ const Landing = () => {
             <h1>Scheme Suggestion Box</h1>
           </div>
           <div className=" scheme-box-row row">
-            <div className="col-sm">
+            <div className="col-sm selection-box">
               <div className="row">
                 <div className="dropdown row scheme-selection-item">
                   <button
-                    className="Scheme-state btn btn-light dropdown-toggle"
+                    className="Scheme-state btn btn-light dropdown-toggle "
                     type="button"
                     id="dropdownMenuButton1"
                     data-bs-toggle="dropdown"
@@ -191,21 +191,16 @@ const Landing = () => {
                   </ul>
                 </div>
                 <div className="row scheme-selection-item-2">
-                    <div className="input-group mb-3">
-                       <input type="text" class="form-control" placeholder="Enter Your Gender" aria-label="Username" aria-describedby="basic-addon1"/>
-                    </div>
+                  <div className="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Enter Your Gender" aria-label="Username" aria-describedby="basic-addon1" />
+                  </div>
                 </div>
                 <div className="row scheme-selection-item-3">
-                    <div className="input-group mb-3">
-                       <input type="text" class="form-control" placeholder="Enter Occuption" aria-label="Username" aria-describedby="basic-addon1"/>
-                    </div>
+                  <div className="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Enter Occuption" aria-label="Username" aria-describedby="basic-addon1" />
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="scheme-box-img col-sm">
-              <img src="img/notepad.svg" alt="" />
-            </div>
-            <div className=" scheme-box-submit col-sm">
+                <div className=" scheme-box-submit">
               <button
                 type="button"
                 className="btn eligibility btn-outline-primary"
@@ -213,6 +208,12 @@ const Landing = () => {
                 Submit
               </button>
             </div>
+              </div>
+            </div>
+            <div className="scheme-box-img col-sm">
+              <img src="img/notepad2.svg" alt="" />
+            </div>
+            
           </div>
         </div>
         <div className="top-scheme">
@@ -226,11 +227,13 @@ const Landing = () => {
                   Pradhan Mantri Annadata Aay SanraksHan Abhiyan (PM AASHA)
                 </h5>
                 <p className="card-text">
-                  Pradhan Mantri Annadata Aay SanraksHan Abhiyan (PM AASHA) is a
-                  scheme that aims at ensuring fair price for farmers and their
-                  produce. By strengthening the procurement process, the
-                  PM-AASHA scheme will improve the income of the farmers to a
-                  greater extent..
+                  The Government has taken another giant leap towards boosting pro-farmer 
+                  initiatives. With the recent approval of the umbrella scheme Pradhan Mantri
+                   Annadata Aay SanraksHan Abhiyan (PM-AASHA), that is aimed towards ensuring
+                   remunerative prices to farmers for their produce, the government has taken 
+                   an unprecedented step.
+
+                  
                 </p>
               </div>
             </div>
@@ -240,10 +243,11 @@ const Landing = () => {
                   Pradhan Mantri Awaas Yojana (Gramin){" "}
                 </h5>
                 <p className="card-text">
-                  To provide pucca house to all who are houseless and living in
-                  dilapidated houses in rural areas. The overall target is to
-                  construct 2.95 crore pucca houses with basic amenities by
-                  March, 2024.
+                Pradhan Mantri Awas Yojana – Urban (PMAY-U), a flagship Mission of Government
+                of India being implemented by Ministry of Housing and Urban Affairs (MoHUA),
+                was launched on 25th June 2015. The Mission addresses urban housing shortage
+                  among the EWS/LIG and MIG categories including the slum dwellers by ensurind 
+                  a pucca house to all eligible urban households by the year 2022.
                 </p>
               </div>
             </div>
@@ -253,13 +257,11 @@ const Landing = () => {
                   National Rurban Mission (NRuM) Vision
                 </h5>
                 <p className="card-text">
-                  The Mission aims at development of 300 Rurban clusters, in the
-                  next five years. These clusters would be strengthened with the
-                  required amenities, for which it is proposed that resources be
-                  mobilized through convergence of various schemes of the
-                  Government, over and above which a Critical Gap Funding (CGF)
-                  would be provided under this Mission, for focused development
-                  of these clusters.
+                  The Mission aims at development of 300 Rurban clusters, in thenext five years.
+                  These clusters would be strengthened with therequired amenities, for which it is
+                  proposed that resources be mobilized through convergence of various schemes of the
+                  Government, over and above which a Critical Gap Funding (CGF)would be provided under
+                  this Mission, for focused development of these clusters.
                 </p>
               </div>
             </div>
@@ -321,7 +323,7 @@ const Landing = () => {
           </div>
           <hr className="hr-line-footer"></hr>
           <div className="footer-link footer-copyright text-center py-3">
-           
+
             <Link to="/">
               <b>© 2022 Copyright : Shwayam-Jagruti</b>
             </Link>

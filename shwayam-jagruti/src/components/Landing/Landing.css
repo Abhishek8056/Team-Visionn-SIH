@@ -36,7 +36,7 @@ h1.heading {
   padding: 50px 0px 30px 80px;
 }
 img.landing-img {
-  width: 100%;
+  width:80%;
 }
 
 .scheme-box{
@@ -73,11 +73,13 @@ img.landing-img {
 .scheme-box-row {
   margin-top: 20px;
 }
-
+.selection-box{
+  margin-top: 30px;
+}
 .scheme-box-img img {
-  margin-top: 20px;
   align-items: center;
-  width: 50%;
+  width: 60%;
+  margin-bottom: 50px;
 }
 .scheme-box-submit {
   align-items: center;
@@ -114,6 +116,8 @@ img.landing-img {
   border-radius: 15px;
   background-color: #fffefe;
   padding: 8px;
+  text-align:justify;
+  color: #000000;
 }
 
 .Footer-pre {

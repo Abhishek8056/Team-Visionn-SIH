@@ -243,11 +243,11 @@ const Landing = () => {
                   Pradhan Mantri Awaas Yojana (Gramin){" "}
                 </h5>
                 <p className="card-text">
-                Pradhan Mantri Awas Yojana – Urban (PMAY-U), a flagship Mission of Government
+                Pradhan Mantri Awas Yojana Urban (PMAY-U), a flagship Mission of Government
                 of India being implemented by Ministry of Housing and Urban Affairs (MoHUA),
-                was launched on 25th June 2015. The Mission addresses urban housing shortage
-                  among the EWS/LIG and MIG categories including the slum dwellers by ensurind 
-                  a pucca house to all eligible urban households by the year 2022.
+                was launched on June 2015. The Mission addresses urban housing shortage 
+                among the EWS/LIG and MIG categories including the slum dwellers by ensurind 
+                  a pucca house to all eligible urban households.
                 </p>
               </div>
             </div>

@@ -10,20 +10,19 @@ import UserDashboard from './Components/UserDashboard/UserDashboard';
 
 function App() {
   return (
+  
     <div className="App">
-        <Navbar />
+        <Navbar/>
         <Landing/>
         <Routes>
-          <Route path="/Landing" exact component={() => <Landing />} />
+          <Route path="/" exact component={() => <Landing />} />
           <Route path="/login" exact component={() => <Login />} />
-          <Route path="/Navbar" exact component={() => <Navbar />} />
+          <Route path="/" exact component={() => <Navbar />} />
           <Route path="/UserDashboard" exact component={() => <UserDashboard />} />
         </Routes>
-
-     
     </div>
+
   );
-  
 }
 
 export default App;

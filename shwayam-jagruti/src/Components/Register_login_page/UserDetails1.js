@@ -1,7 +1,7 @@
 import React from "react";
 import swal from "sweetalert";
-import Sidebar from "./Sidebar";
-import Footer from './Footer'
+import Sidebar from "./Components/Register_login_page/Sidebar";
+import Footer from './Components/Register_login_page/Footer';
 class UserDetails extends React.Component {
   state = {
     names: []

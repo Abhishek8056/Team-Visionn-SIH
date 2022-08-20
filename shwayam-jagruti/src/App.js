@@ -2,7 +2,7 @@ import React from 'react';
 import { Router, Route, Routes } from "react-router";
 //import { createBrowserHistory } from "history";
 import './App.css';
-import { createBrowserHistory } from "history";
+import { createBrowserHistory } from "history"; 
 import Navbar from './Components/Navbar/Navbar.js';
 import Landing from './Components/Landing/Landing.js'
 import Signup from "./Components/Register_login_page/Signup";

@@ -4,6 +4,7 @@
 }
 .outerbox{
     background-color:white;
+    margin-top: 50px;
 }
 .card{
     border:0;
@@ -11,6 +12,14 @@
 
 .card-body{
     margin:20px;
+}
+.login-btn{
+padding:10px 30px 10px 30px;
+text-decoration: none;
+
+}
+.card-login-btn{
+    text-align: center;
 }
 .btn.login.btn-outline-primary{
     margin:10px 100px;

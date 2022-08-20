@@ -21,9 +21,11 @@ ReactDOM.render(
       <Route path="/Login" element={<Login />} />
       <Route path="/LoginDashboard" element={<LoginDashboard/>}/>
       <Route path="/Signup" element={<Signup/>}/>
+      <Route path="/Dashboard/UserDetails" element={<UserDetails/>} />
      <Route path="/Dashboard" element={<Dashboard/>}/>
-     <Route path="/ChangePassword" element={<ChangePassword/>} />
+     <Route path="/Dashboard/ChangePassword" element={<ChangePassword/>} />
      <Route path="/UserDashboard" element={<UserDashboard/>} />
+     
      
     </Routes>
   </Router>,

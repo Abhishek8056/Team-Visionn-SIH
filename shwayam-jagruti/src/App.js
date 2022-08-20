@@ -1,6 +1,6 @@
 import React from 'react';
 import { Router, Route, Switch } from "react-router";
-//import { createBrowserHistory } from "history";
+import { createBrowserHistory } from "history";
 import './App.css'; 
 import Navbar from './Components/Navbar/Navbar.js';
 import Landing from './Components/Landing/Landing.js'
@@ -14,9 +14,11 @@ import PublicRoute from "./Components/Register_login_page/PublicRoute";
 import ChangePassword from "./Components/Register_login_page/ChangePassword";
 import UserDetails from "./Components/Register_login_page/UserDetails";
 
-function App() {
+class App extends React.Components {
+  render(){
+  const history = createBrowserHistory();
   return (
-  
+   
     <div className="App">
         <Navbar/>
         <Landing/>
@@ -41,6 +43,7 @@ function App() {
         </Router>
     </div>
   );
+  }
 }
 
 export default App;

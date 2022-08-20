@@ -2,6 +2,8 @@ import React from 'react';
 import { Router, Route, Routes } from "react-router";
 //import { createBrowserHistory } from "history";
 import './App.css';
+import { createBrowserHistory } from "history";
+import './App.css'; 
 import Navbar from './Components/Navbar/Navbar.js';
 import Landing from './Components/Landing/Landing.js'
 import Signup from "./Components/Register_login_page/Signup";
@@ -10,9 +12,10 @@ import Dashboard from "./Components/Register_login_page/Dashboard";
 import ChangePassword from "./Components/Register_login_page/ChangePassword";
 import UserDetails from "./Components/Register_login_page/UserDetails";
 
-function App() {
+class App extends React.Components{
+  render(){
+  const history = createBrowserHistory();
   return (
-
     <div className="App">
       <Navbar />
       <Landing />
@@ -20,6 +23,7 @@ function App() {
 
     </div>
   );
+  }
 }
 
 export default App;

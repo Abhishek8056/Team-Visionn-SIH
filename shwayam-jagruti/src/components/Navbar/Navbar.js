@@ -41,7 +41,7 @@ const Navbar = () => {
               <i class="fa-solid fa-moon-over-sun"></i>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/Login">Login</Link>
+                <Link className="nav-link active" aria-current="page" to="/Signup">Login</Link>
               </li>
             </ul>
 

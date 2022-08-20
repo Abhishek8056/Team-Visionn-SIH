@@ -87,7 +87,7 @@ class Signup extends React.Component {
           </button>
           <p>
             <span>Already have an account ? </span>&nbsp;&nbsp;&nbsp;
-            <NavLink to="/" exact={true} activeClassName="is-active">
+            <NavLink to="/Login" exact={true} activeClassName="is-active">
               <strong className="strong">LogIn</strong>
             </NavLink>
           </p>

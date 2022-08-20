@@ -39,7 +39,7 @@ class Sidebar extends React.Component {
         <div className="row">
           <div className="col-md-12 imageContainer1">
             <NavLink
-              to="/Dashboard/#" //user deatils link
+              to="/Dashboard/UserDetails" //user deatils link
               exact={true}
               activeClassName="is-active"
             >

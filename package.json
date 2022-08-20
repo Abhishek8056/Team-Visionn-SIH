@@ -1,7 +1,11 @@
 {
   "dependencies": {
+    "nodemon": "^2.0.19",
     "react-icons": "^4.4.0",
     "react-router": "^6.3.0",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "react-script": "^2.0.5",
+    "sweetalert": "^2.1.2",
+    "util": "^0.12.4"
   }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "./ChangePassword.css";
 import swal from "sweetalert";
-import { Redirect,NavLink } from "react-router-dom";
+import { Navigate,NavLink } from "react-router-dom";
 class ChangePassword extends React.Component {
   constructor(props) {
     super(props);
@@ -35,7 +35,7 @@ class ChangePassword extends React.Component {
   };
   render() {
     if (this.state.changeIt) {
-      return <Redirect to="/" />;
+      return <Navigate to="/" />;
     }
     return (
       <div>

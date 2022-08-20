@@ -1,6 +1,6 @@
 import React from "react";
 import "./Dashboard.css";
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import swal from "sweetalert";
 import { logout } from "../utils";
 import Sidebar from "./Sidebar";
@@ -24,10 +24,10 @@ class Dashboard extends React.Component {
             </div>
             <div className="col-md-9 quotes">
               <Aboutus />
-              <Switch>
+              <Routes>
                 <Route path="UserDetails" component={UserDetails} />
                 <Route path="ChangePassword" component={ChangePassword} />
-              </Switch>
+              </Routes>
             </div>
           </div>
         </div>

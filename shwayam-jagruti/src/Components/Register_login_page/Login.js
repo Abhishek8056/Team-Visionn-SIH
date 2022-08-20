@@ -1,7 +1,7 @@
 import React from "react";
 import "./Login.css";
 import { NavLink } from "react-router-dom";
-import { Redirect } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import swal from "sweetalert";
 import { login } from "../utils";
 class Login extends React.Component {
@@ -62,7 +62,7 @@ class Login extends React.Component {
    
   render() {
     if (this.state.isLoggedIn) {
-      return <Redirect to="/Dashboard" />;
+      return <Navigate to="/Dashboard" />;
     }
     return (
       <div>

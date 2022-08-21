@@ -3,8 +3,6 @@ import './Navbar.css';
 import {BsMask} from "react-icons/bs";
 import { Link } from 'react-router-dom';
 
-
-
 const Navbar = () => {
   return (
     <>
@@ -29,7 +27,7 @@ const Navbar = () => {
                   <li><Link className="dropdown-item" to="/">Something else here</Link></li>
                 </ul>
               </li>
-          
+                     
               <li>
                 <div className="btn-group" role="group" aria-label="Basic example">
                   <button type="button" class="btn btn-outline-none">A-</button>

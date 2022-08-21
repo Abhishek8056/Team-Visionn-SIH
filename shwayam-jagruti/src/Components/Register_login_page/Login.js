@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { Navigate } from "react-router-dom";
 import swal from "sweetalert";
 import { login } from "../utils";
+import Navbar2 from '../Navbar/Navbar2';
 class Login extends React.Component {
   constructor(props) {
     super(props);
@@ -66,6 +67,7 @@ class Login extends React.Component {
     }
     return (
       <div>
+<Navbar2/>
         <div className=" container-fluid login">
           <form onSubmit={this.FormSubmitted}>
             <h1>Log in</h1>

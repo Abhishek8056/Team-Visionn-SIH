@@ -2,6 +2,7 @@ import React from "react";
 import "./Signup.css";
 import swal from "sweetalert";
 import { NavLink } from "react-router-dom";
+import Navbar2 from '../Navbar/Navbar2';
 class Signup extends React.Component {
   constructor(props) {
     super(props);
@@ -40,6 +41,8 @@ class Signup extends React.Component {
   };
   render() {
     return (
+    <>
+      <Navbar2/>
       <div className=" container-fluid signup">
         <form className="formSignup" onSubmit={this.FormSubmitted.bind(this)}>
           <h1>SignUp</h1>
@@ -93,6 +96,7 @@ class Signup extends React.Component {
           </p>
         </form>
       </div>
+      </>
     );
   }
 }

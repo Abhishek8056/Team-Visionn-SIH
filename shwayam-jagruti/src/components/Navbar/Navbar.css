@@ -1,3 +1,4 @@
+
 *{
     margin:0;
     padding:0;
@@ -12,6 +13,12 @@
 .navbar-nav{
     padding:2px 20px 2px 20px;
 }
+.navbar-brand-logo img{
+    width: 25px;
+    margin:0px 0px 0px 20px;
+    padding:0px;
+}
+
 .navbar-brand{
     padding-left: 20px;
     font-weight: 900;

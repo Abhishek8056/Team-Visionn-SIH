@@ -8,7 +8,7 @@ const Landing = () => {
       <div className="container">
         <div className="row">
           <div className=" scheme col-sm-4">
-            <h1 className="heading">You are confuse </h1>
+            <h1 className="heading">Are you confuse ? </h1>
 
             <h1 className="heading">which Government </h1>
 

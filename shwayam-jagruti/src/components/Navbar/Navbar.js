@@ -18,7 +18,7 @@ const Navbar = () => {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className='darkmode'><BsMask/></li>
               <li className="nav-item dropdown">
-                <Link className="nav-link language dropdown-toggle" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <Link className="nav-link language dropdown-toggle" id="google_translate_element" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   English
                 </Link>
                 <ul className="dropdown-menu">

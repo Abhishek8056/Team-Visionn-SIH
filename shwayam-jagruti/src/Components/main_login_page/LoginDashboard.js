@@ -4,13 +4,13 @@ import './Login2.css'
 import admin from './admin.svg';
 import user from './user.svg'
 import department from './department.png'
-import Navbar from '../Navbar/Navbar';
+import Navbar2 from '../Navbar/Navbar2';
 
 
 const rafce = () => {
     return (
         <>
-            <Navbar />
+            <Navbar2 />
             <div className=" outerbox container">
                 <div className="card-group">
                     <div className="card">

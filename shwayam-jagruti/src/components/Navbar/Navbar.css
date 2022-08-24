@@ -73,4 +73,9 @@ li.nav-item :hover{
   align-items: center; 
   padding-top: 10px;
   padding-right: 10px;
+  background-color: #92B4EC;
+  text-decoration: none;
+  border:0px;
+  margin-bottom: 15px;
 }
+

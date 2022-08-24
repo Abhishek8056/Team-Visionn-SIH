@@ -16,7 +16,7 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li className='darkmode'><BsMask/></li>
+            <button className='darkmode '><BsMask/></button>
               <li className="nav-item dropdown">
                 <Link className="nav-link language dropdown-toggle" id="google_translate_element" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   English

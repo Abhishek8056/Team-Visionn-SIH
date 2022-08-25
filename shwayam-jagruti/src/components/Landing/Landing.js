@@ -1,7 +1,6 @@
 import React from "react";
 import "./Landing.css";
 import { Link } from "react-router-dom";
-import { BsChevronDoubleRight } from "react-icons/bs";
 
 const Landing = () => {
   return (
@@ -25,11 +24,32 @@ const Landing = () => {
             </button>
           </div>
           <div className=" img-section col-sm-6">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="true"
+            >
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -42,12 +62,28 @@ const Landing = () => {
                   <img src="img/img3.svg" class="d-block w-100" alt="..." />
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon  carousel-button" aria-hidden="true"></span>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon  carousel-button"
+                  aria-hidden="true"
+                ></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next dark" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon carousel-button" aria-hidden="true"></span>
+              <button
+                class="carousel-control-next dark"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon carousel-button"
+                  aria-hidden="true"
+                ></span>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
@@ -218,12 +254,24 @@ const Landing = () => {
                 </div>
                 <div className="row scheme-selection-item-2">
                   <div className="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Enter Your Gender" aria-label="Username" aria-describedby="basic-addon1" />
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter Your Gender"
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                    />
                   </div>
                 </div>
                 <div className="row scheme-selection-item-3">
                   <div className="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Enter Occuption" aria-label="Username" aria-describedby="basic-addon1" />
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter Occuption"
+                      aria-label="Username"
+                      aria-describedby="basic-addon1"
+                    />
                   </div>
                 </div>
                 <div className=" scheme-box-submit">
@@ -239,65 +287,73 @@ const Landing = () => {
             <div className="scheme-box-img col-sm">
               <img src="img/notepad2.svg" alt="" />
             </div>
-
           </div>
         </div>
+
+        {/*Categories Section*/}
+
         <div className="top-scheme">
           <div className="top-scheme-heading">
-            <h1>Top Government Scheme</h1>
+            <h1>Categories</h1>
+            <h4>Schemes divided into Different Categories</h4>
           </div>
           <div className=" top-scheme-row row">
-            <div className=" card-top col-sm">
-              <div className="card-body scheme-body">
-                <h5 className="card-title card-title-heading">
-                  Pradhan Mantri Annadata Aay SanraksHan Abhiyan (PM AASHA)
-                </h5>
-                <p className="card-text scheme-card-text">
-                  The Government has taken another giant leap towards boosting pro-farmer
-                  initiatives. With the recent approval of the umbrella scheme Pradhan Mantri
-                  Annadata Aay SanraksHan Abhiyan (PM-AASHA), that is aimed towards ensuring
-                  remunerative prices to farmers for their produce, the government has taken
-                  an unprecedented step.
-
-
-                </p>
+            <div class="card top-scheme-cards col-3">
+              <img
+                src="img/Scheme-1.png"
+                class="card-img-top ts-img"
+                alt="scheme-1"
+              />
+              <div class="card-body ts-body">
+                <Link to="">
+                  <h6>Education & Learning</h6>
+                </Link>
               </div>
             </div>
-            <div className=" card-top col-sm">
-              <div className="card-body  scheme-body">
-                <h5 className="card-title">
-                  Pradhan Mantri Awaas Yojana (Gramin){" "}
-                </h5>
-                <p className="card-text scheme-card-text">
-                  Pradhan Mantri Awas Yojana Urban (PMAY-U), a flagship Mission of Government
-                  of India being implemented by Ministry of Housing and Urban Affairs (MoHUA),
-                  was launched on June 2015. The Mission addresses urban housing shortage
-                  among the EWS/LIG and MIG categories including the slum dwellers by ensurind
-                  a pucca house to all eligible urban households.
-                </p>
+            <div class="card top-scheme-cards col-3">
+              <img
+                src="img/Scheme-2.png"
+                class="card-img-top ts-img"
+                alt="..."
+              />
+              <div class="card-body ts-body">
+                <Link to="">
+                  <h6>Agriculture & Rural</h6>
+                </Link>
               </div>
             </div>
-            <div className=" card-top col-sm">
-              <div className="card-body  scheme-body">
-                <h5 className="card-title">
-                  National Rurban Mission (NRuM) Vision
-                </h5>
-                <p className="card-text scheme-card-text">
-                  The Mission aims at development of 300 Rurban clusters, in thenext five years.
-                  These clusters would be strengthened with therequired amenities, for which it is
-                  proposed that resources be mobilized through convergence of various schemes of the
-                  Government, over and above which a Critical Gap Funding (CGF)would be provided under
-                  this Mission, for focused development of these clusters.
-                </p>
+            <div class="card top-scheme-cards col-3">
+              <img
+                src="img/Scheme-3.png"
+                class="card-img-top ts-img"
+                alt="..."
+              />
+              <div class="card-body ts-body">
+                <Link to="">
+                  <h6>Housing & Shelter</h6>
+                </Link>
+              </div>
+            </div>
+            <div class="card top-scheme-cards col-3">
+              <img
+                src="img/Scheme-4.png"
+                class="card-img-top ts-img"
+                alt="..."
+              />
+              <div class="card-body ts-body">
+                <Link to="">
+                  <h6>Health & Wellness</h6>
+                </Link>
               </div>
             </div>
           </div>
         </div>
-
 
         <div className="how-to-use">
           <h3>How to use </h3>
-          <h6 classname="how-to-use-heading">Easy steps to apply Governments scheme</h6>
+          <h6 classname="how-to-use-heading">
+            Easy steps to apply Governments scheme
+          </h6>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card how-to-use-card">
@@ -327,28 +383,111 @@ const Landing = () => {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
         <div className="about">
-          <span className="about-heading">
-            About
-          </span>
+          <span className="about-heading">About</span>
           <div className="row">
             <div className="col md-6 about-para">
-              <p className="para-text"> Shwayam-jagruti is a National Platform that aims to offer one-stop search and discovery of the Government schemes.
-
-                It provides an innovative, technology-based solution to discover scheme information based upon the eligibility of the citizen.
-                 In which you have to enter the basic details.
-                The platform helps the citizen to find the right Government schemes for them. It also guides on how to apply for different Government schemes. Thus no need to visit multiple Government websites.</p>
+              <p className="para-text">
+                {" "}
+                Shwayam-jagruti is a National Platform that aims to offer
+                one-stop search and discovery of the Government schemes. It
+                provides an innovative, technology-based solution to discover
+                scheme information based upon the eligibility of the citizen. In
+                which you have to enter the basic details. The platform helps
+                the citizen to find the right Government schemes for them. It
+                also guides on how to apply for different Government schemes.
+                Thus no need to visit multiple Government websites.
+              </p>
             </div>
             <div className="col md-6">
-            <img src="img/aboutus.svg" alt="" />
-
+              <img src="img/aboutus.svg" alt="" />
             </div>
           </div>
         </div>
 
+        {/*FAQ Section*/}
+
+        <div class="accordion faq-section" id="accordionExample">
+          <h1>Frequently Asked Questions [FAQ]</h1>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What is Shwayam-jagruti?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+              Shwayam-jagruti is a National Platform that aims to offer one-stop search and discovery of the Government schemes. 
+              It provides an innovative, technology-based solution to discover scheme information based upon the eligibility of the citizen. 
+              In which you have to enter the basic details. The platform helps the citizen to find the right Government schemes for them. 
+              It also guides on how to apply for different Government schemes. Thus no need to visit multiple Government websites.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                How to use it properly?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                 The procedure is simple. You have to enter the basic details.
+                  The platform helps the citizen to find the right Government schemes for them.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                What basic details are required?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                 We need only the basic details like your name, age, income and where you live.
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div className="Footer-pre">
           <span></span>
@@ -406,7 +545,6 @@ const Landing = () => {
           </div>
           <hr className="hr-line-footer"></hr>
           <div className="footer-link footer-copyright text-center py-3">
-
             <Link to="/">
               <b>© 2022 Copyright : Shwayam-Jagruti</b>
             </Link>

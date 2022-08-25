@@ -16,6 +16,18 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="">Schemes</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="">How To Use</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="">About</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="">FAQ</Link>
+              </li>
             <button className='darkmode '><BsMask/></button>
               <li className="nav-item dropdown">
                 <Link className="nav-link language dropdown-toggle" id="google_translate_element" to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -36,9 +48,7 @@ const Navbar = () => {
                   <button type="button" class="btn btn-outline-none">A+</button>
                 </div>
               </li>
-              <li className="nav-item">
-              <i class="fa-solid fa-moon-over-sun"></i>
-              </li>
+              
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/LoginDashboard">Login</Link>
               </li>

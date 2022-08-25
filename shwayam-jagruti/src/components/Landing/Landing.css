@@ -100,10 +100,16 @@ img.landing-img {
   border-radius: 30px;
   background-color: #d9d9d9;
 }
+
+.top-scheme-heading h4{
+  margin-top: 20px;
+}
 .top-scheme-heading {
   margin-top: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
+  text-align: center;
 }
+
 .top-scheme-row {
   margin-top: 30px;
 }
@@ -114,6 +120,32 @@ img.landing-img {
   border-radius: 20px;
   box-shadow: 8px 8px #000000;
 }
+
+.top-scheme-cards{
+  width: 200px;
+  height: 150px;
+  margin:60px;
+  
+  align-items: center;
+  
+  
+}
+
+.ts-img{
+  width: 200px;
+  height: 300px;
+}
+
+.ts-body{
+  height: 150px;
+  width: 150px;
+  
+}
+
+.ts-body h6{
+  font-size: 17px;
+}
+
 .card-title {
   font-size: 35px;
 }
@@ -184,6 +216,9 @@ img.landing-img {
   border:#000000;
 }
 /*==== how to use =====*/
+.how-to-use{
+  margin-top: 30px;
+}
 .how-to-use-card{
   max-width: 20rem;
   background-color: white;
@@ -228,4 +263,9 @@ h5{
 }
 p.para-text{
   font-weight: 400;
+}
+
+.faq-section{
+  padding: 25px 150px 25px 150px;
+  
 }

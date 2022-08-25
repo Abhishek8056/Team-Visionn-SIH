@@ -12,6 +12,7 @@ import Landing from './Components/Landing/Landing.js'
 // import UserDetails from "./Components/Register_login_page/UserDetails";
 
 function App() {
+
   return (
     <>
     <Navbar/>

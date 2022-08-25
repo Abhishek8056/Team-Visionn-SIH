@@ -6,12 +6,15 @@
     background-color:white;
     margin-top: 50px;
 }
-.card{
+.dsh-card{
     border:0;
 }
 
-.card-body{
+.Login-body{
     margin:20px;
+}
+img.card-img-top{
+align-items: center;
 }
 .login-btn{
 padding:10px 30px 10px 30px;

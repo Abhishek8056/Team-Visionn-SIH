@@ -13,8 +13,8 @@ const rafce = () => {
             <Navbar2 />
             <div className=" outerbox container">
                 <div className="card-group">
-                    <div className="card">
-                        <div className="card-body">
+                    <div className="card Dsh-card">
+                        <div className="card-body Login-body">
                             <h5 className="card-title">Admin</h5>
                             <img src={admin} className="card-img-top" alt="..." />
                         </div>
@@ -23,8 +23,8 @@ const rafce = () => {
 
                         </div>
                     </div>
-                    <div className="card">
-                        <div className="card-body">
+                    <div className="card dsh-card">
+                        <div className="card-body Login-body">
                             <h5 className="card-title">User</h5>
                             <img src={user} className="card-img-top" alt="..." />
                         </div>
@@ -34,10 +34,10 @@ const rafce = () => {
                         </div>
 
                     </div>
-                    <div className="card">
-                        <div className="card-body">
+                    <div className="card dsh-card">
+                        <div className="card-body login-body">
                             <h5 className="card-title">Department </h5>
-                            <img src={department} className=" thierdpng card-img-top" alt="..." />
+                            <img src={department} className="card-img-top" alt="..." />
                         </div>
                         <div className="card-login-btn">
                         <Link type="button" className="btn eligibility login-btn btn-link" to="/">Login</Link>

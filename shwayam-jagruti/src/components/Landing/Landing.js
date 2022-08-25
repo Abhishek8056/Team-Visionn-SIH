@@ -387,23 +387,23 @@ const Landing = () => {
         </div>
         <div className="about">
           <span className="about-heading">About</span>
-          <div className="row">
-            <div className="col md-6 about-para">
-              <p className="para-text">
-                {" "}
-                Shwayam-jagruti is a National Platform that aims to offer
-                one-stop search and discovery of the Government schemes. It
-                provides an innovative, technology-based solution to discover
-                scheme information based upon the eligibility of the citizen. In
-                which you have to enter the basic details. The platform helps
-                the citizen to find the right Government schemes for them. It
-                also guides on how to apply for different Government schemes.
-                Thus no need to visit multiple Government websites.
-              </p>
+          <div className="row about-area">
+
+            <div className="col md-7 about-para">
+              <p className="para-text"> Shwayam-jagruti is a National Platform that aims to offer one-stop search and discovery of the Government schemes.
+                It provides an innovative, technology-based solution to discover scheme information based upon the eligibility of the citizen.
+                In which you have to enter the basic details.
+                The platform helps the citizen to find the right Government schemes for them. It also guides on how to apply for different Government schemes. Thus no need to visit multiple Government websites.</p>
+
+              <div className="aboutbtn">
+                <button type="button" class="btn btn-outline-primary aboutButton">Learn More</button>
+              </div>
             </div>
-            <div className="col md-6">
-              <img src="img/aboutus.svg" alt="" />
+            <div className="col md-5 about-img">
+              <img className="aboutImage" src="img/aboutusimg.svg" alt="" />
+
             </div>
+
           </div>
         </div>
 
@@ -431,10 +431,10 @@ const Landing = () => {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-              Shwayam-jagruti is a National Platform that aims to offer one-stop search and discovery of the Government schemes. 
-              It provides an innovative, technology-based solution to discover scheme information based upon the eligibility of the citizen. 
-              In which you have to enter the basic details. The platform helps the citizen to find the right Government schemes for them. 
-              It also guides on how to apply for different Government schemes. Thus no need to visit multiple Government websites.
+                Shwayam-jagruti is a National Platform that aims to offer one-stop search and discovery of the Government schemes.
+                It provides an innovative, technology-based solution to discover scheme information based upon the eligibility of the citizen.
+                In which you have to enter the basic details. The platform helps the citizen to find the right Government schemes for them.
+                It also guides on how to apply for different Government schemes. Thus no need to visit multiple Government websites.
               </div>
             </div>
           </div>
@@ -458,8 +458,8 @@ const Landing = () => {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                 The procedure is simple. You have to enter the basic details.
-                  The platform helps the citizen to find the right Government schemes for them.
+                The procedure is simple. You have to enter the basic details.
+                The platform helps the citizen to find the right Government schemes for them.
               </div>
             </div>
           </div>
@@ -483,7 +483,7 @@ const Landing = () => {
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                 We need only the basic details like your name, age, income and where you live.
+                We need only the basic details like your name, age, income and where you live.
               </div>
             </div>
           </div>

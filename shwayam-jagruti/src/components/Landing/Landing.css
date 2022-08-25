@@ -183,3 +183,18 @@ img.landing-img {
   border-radius: 30px;
   border:#000000;
 }
+/*==== how to use =====*/
+.how-to-use-card{
+  max-width: 15rem;
+  max-height: 13rem;
+}
+img.card-img-top{
+  max-width: 10rem;
+align-items: center;}
+h3{
+  text-align: center;
+  font-weight:400;
+}
+h5{
+  font-size: medium;
+}

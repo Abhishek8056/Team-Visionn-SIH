@@ -248,10 +248,10 @@ const Landing = () => {
           <div className=" top-scheme-row row">
             <div className=" card-top col-sm">
               <div className="card-body">
-                <h5 className="card-title">
+                <h5 className="card-title card-title-heading">
                   Pradhan Mantri Annadata Aay SanraksHan Abhiyan (PM AASHA)
                 </h5>
-                <p className="card-text">
+                <p className="card-text card-text-para">
                   The Government has taken another giant leap towards boosting pro-farmer
                   initiatives. With the recent approval of the umbrella scheme Pradhan Mantri
                   Annadata Aay SanraksHan Abhiyan (PM-AASHA), that is aimed towards ensuring
@@ -292,6 +292,10 @@ const Landing = () => {
             </div>
           </div>
         </div>
+
+  
+      
+
         <div className="Footer-pre">
           <span></span>
         </div>

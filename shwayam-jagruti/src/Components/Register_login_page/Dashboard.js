@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import Aboutus from "./Aboutus";
 import UserDetails from "./UserDetails"; 
 import ChangePassword from "./ChangePassword";
+
 class Dashboard extends React.Component {
   logout = e => {
     logout();
@@ -17,6 +18,7 @@ class Dashboard extends React.Component {
   render() {
     return (
       <div>
+
         <div className="container-fluid dashboardBackground">
           <div className="row">
             <div className="col-md-3 profileDashboard">

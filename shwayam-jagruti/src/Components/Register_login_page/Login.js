@@ -66,8 +66,8 @@ class Login extends React.Component {
       return <Navigate to="/Dashboard" />;
     }
     return (
-      <div>
-<Navbar2/>
+    <div>
+       <Navbar2/>
         <div className=" container-fluid login">
           <form onSubmit={this.FormSubmitted}>
             <h1>Log in</h1>

@@ -6,25 +6,25 @@ class UserDetails extends React.Component {
   state = {
     names: []
   };
-  componentDidMount() {
-    this.getData();
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then(res => res.json())
-      .then(json => {
-        this.setState({
-          names: json
-        });
-      });
-  }
-  getData() {
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then(res => res.json())
-      .then(json => {
-        this.setState({
-          names: json
-        });
-      });
-  }
+  // componentDidMount() {
+  //   this.getData();
+  //   fetch("https://jsonplaceholder.typicode.com/users")
+  //     .then(res => res.json())
+  //     .then(json => {
+  //       this.setState({
+  //         names: json
+  //       });
+  //     });
+  // }
+  // getData() {
+  //   fetch("https://jsonplaceholder.typicode.com/users")
+  //     .then(res => res.json())
+  //     .then(json => {
+  //       this.setState({
+  //         names: json
+  //       });
+  //     });
+  // }
   delItem(id) {
     swal({
       title: "Are you sure?",

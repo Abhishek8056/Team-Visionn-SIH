@@ -2,6 +2,7 @@ import React from "react";
 import "./ChangePassword.css";
 import swal from "sweetalert";
 import { Navigate,NavLink } from "react-router-dom";
+import Navbar2 from '../Navbar/Navbar2';
 class ChangePassword extends React.Component {
   constructor(props) {
     super(props);
@@ -37,8 +38,10 @@ class ChangePassword extends React.Component {
     if (this.state.changeIt) {
       return <Navigate to="/" />;
     }
+ 
     return (
       <div>
+         <Navbar2/>
         <div className="container-fluid change change1">
           <div className="row">
             <div className="col-md-12 changepassword">

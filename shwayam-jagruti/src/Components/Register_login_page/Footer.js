@@ -10,7 +10,7 @@ function Footer() {
               <span>Policy</span>&nbsp;&nbsp;&nbsp;<span>Contact US</span>
             </p>
             <p>
-              Copyright <span>&#169;</span> @All Rights
+              Copyright <span>&#169;</span> @All Rights Shwayam-Jagruti
               Reserved
             </p>
           </div>

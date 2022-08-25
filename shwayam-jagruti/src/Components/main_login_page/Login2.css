@@ -13,8 +13,9 @@
 .Login-body{
     margin:20px;
 }
-img.card-img-top{
+img.card-img-LoginDashboard{
 align-items: center;
+width:100%;
 }
 .login-btn{
 padding:10px 30px 10px 30px;

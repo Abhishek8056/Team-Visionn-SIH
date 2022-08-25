@@ -16,7 +16,7 @@ const rafce = () => {
                     <div className="card Dsh-card">
                         <div className="card-body Login-body">
                             <h5 className="card-title">Admin</h5>
-                            <img src={admin} className="card-img-top" alt="..." />
+                            <img src={admin} className="card-img-LoginDashboard" alt="..." />
                         </div>
                         <div className="card-login-btn">
                             <Link type="button" className="btn eligibility login-btn btn-link" to="/UserDashboard">Login</Link>
@@ -26,7 +26,7 @@ const rafce = () => {
                     <div className="card dsh-card">
                         <div className="card-body Login-body">
                             <h5 className="card-title">User</h5>
-                            <img src={user} className="card-img-top" alt="..." />
+                            <img src={user} className="card-img-LoginDashboard" alt="..." />
                         </div>
                         <div className="card-login-btn">
                         <Link type="button" className="btn eligibility login-btn btn-link" to="/Login">Login</Link>
@@ -35,14 +35,15 @@ const rafce = () => {
 
                     </div>
                     <div className="card dsh-card">
-                        <div className="card-body login-body">
-                            <h5 className="card-title">Department </h5>
-                            <img src={department} className="card-img-top" alt="..." />
+                        <div className="card-body Login-body">
+                            <h5 className="card-title">Department</h5>
+                            <img src={department} className="card-img-LoginDashboard" alt="..." />
                         </div>
                         <div className="card-login-btn">
-                        <Link type="button" className="btn eligibility login-btn btn-link" to="/">Login</Link>
+                        <Link type="button" className="btn eligibility login-btn btn-link" to="/Login">Login</Link>
 
                         </div>
+
                     </div>
                 </div>
             </div>

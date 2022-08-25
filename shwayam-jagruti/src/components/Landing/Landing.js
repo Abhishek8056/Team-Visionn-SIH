@@ -292,7 +292,7 @@ const Landing = () => {
 
         {/*Categories Section*/}
 
-        <div className="top-scheme">
+        <div className="top-scheme" id="categories">
           <div className="top-scheme-heading">
             <h1>Categories</h1>
             <h4>Schemes divided into Different Categories</h4>
@@ -349,7 +349,7 @@ const Landing = () => {
           </div>
         </div>
 
-        <div className="how-to-use">
+        <div className="how-to-use" id="howtouse">
           <h3>How to use </h3>
           <h6 classname="how-to-use-heading">
             Easy steps to apply Governments scheme
@@ -385,7 +385,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-        <div className="about">
+        <div className="about" id="about">
           <span className="about-heading">About</span>
           <div className="row about-area">
 

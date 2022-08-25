@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css';
-import {BsMask} from "react-icons/bs";
+  import {BsMask} from "react-icons/bs";
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -16,16 +16,17 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li className="nav-item">
+            <li className="nav-item" onClick={() => window.location.replace("/#categories")}>
                 <Link className="nav-link active" aria-current="page" to="">Schemes</Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" onClick={() => window.location.replace("/#howtouse")}>
                 <Link className="nav-link active" aria-current="page" to="">How To Use</Link>
+                
               </li>
-              <li className="nav-item">
+              <li className="nav-item" onClick={() => window.location.replace("/#about")}>
                 <Link className="nav-link active" aria-current="page" to="">About</Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item" onClick={() => window.location.replace("/#accordionExample")}>
                 <Link className="nav-link active" aria-current="page" to="">FAQ</Link>
               </li>
             <button className='darkmode '><BsMask/></button>

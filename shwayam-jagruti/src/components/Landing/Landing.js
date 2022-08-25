@@ -7,7 +7,7 @@ const Landing = () => {
     <>
       <div className="container">
         <div className="row">
-          <div className=" scheme col-sm-4">
+          <div className=" scheme col-sm-5">
             <h1 className="heading">Are you confuse ? </h1>
 
             <h1 className="heading">which Government </h1>
@@ -23,8 +23,33 @@ const Landing = () => {
               Check Eligibility
             </button>
           </div>
-          <div className=" img-section col-sm-8">
-            <img className=" landing-img" src="img/img2.svg" alt="" />
+          <div className=" img-section col-sm-6">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/img1.svg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="img/img2.svg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="img/img3.svg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon  carousel-button" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next dark" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon carousel-button" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
         <div className="scheme-box">
@@ -201,19 +226,19 @@ const Landing = () => {
                   </div>
                 </div>
                 <div className=" scheme-box-submit">
-              <button
-                type="button"
-                className="btn eligibility btn-outline-primary"
-              >
-                Submit
-              </button>
-            </div>
+                  <button
+                    type="button"
+                    className="btn eligibility btn-outline-primary"
+                  >
+                    Submit
+                  </button>
+                </div>
               </div>
             </div>
             <div className="scheme-box-img col-sm">
               <img src="img/notepad2.svg" alt="" />
             </div>
-            
+
           </div>
         </div>
         <div className="top-scheme">
@@ -227,13 +252,13 @@ const Landing = () => {
                   Pradhan Mantri Annadata Aay SanraksHan Abhiyan (PM AASHA)
                 </h5>
                 <p className="card-text">
-                  The Government has taken another giant leap towards boosting pro-farmer 
+                  The Government has taken another giant leap towards boosting pro-farmer
                   initiatives. With the recent approval of the umbrella scheme Pradhan Mantri
-                   Annadata Aay SanraksHan Abhiyan (PM-AASHA), that is aimed towards ensuring
-                   remunerative prices to farmers for their produce, the government has taken 
-                   an unprecedented step.
+                  Annadata Aay SanraksHan Abhiyan (PM-AASHA), that is aimed towards ensuring
+                  remunerative prices to farmers for their produce, the government has taken
+                  an unprecedented step.
 
-                  
+
                 </p>
               </div>
             </div>
@@ -243,10 +268,10 @@ const Landing = () => {
                   Pradhan Mantri Awaas Yojana (Gramin){" "}
                 </h5>
                 <p className="card-text">
-                Pradhan Mantri Awas Yojana Urban (PMAY-U), a flagship Mission of Government
-                of India being implemented by Ministry of Housing and Urban Affairs (MoHUA),
-                was launched on June 2015. The Mission addresses urban housing shortage 
-                among the EWS/LIG and MIG categories including the slum dwellers by ensurind 
+                  Pradhan Mantri Awas Yojana Urban (PMAY-U), a flagship Mission of Government
+                  of India being implemented by Ministry of Housing and Urban Affairs (MoHUA),
+                  was launched on June 2015. The Mission addresses urban housing shortage
+                  among the EWS/LIG and MIG categories including the slum dwellers by ensurind
                   a pucca house to all eligible urban households.
                 </p>
               </div>

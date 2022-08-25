@@ -1,6 +1,7 @@
 import React from "react";
 import "./Landing.css";
 import { Link } from "react-router-dom";
+import { BsChevronDoubleRight } from "react-icons/bs";
 
 const Landing = () => {
   return (
@@ -247,11 +248,11 @@ const Landing = () => {
           </div>
           <div className=" top-scheme-row row">
             <div className=" card-top col-sm">
-              <div className="card-body">
+              <div className="card-body scheme-body">
                 <h5 className="card-title card-title-heading">
                   Pradhan Mantri Annadata Aay SanraksHan Abhiyan (PM AASHA)
                 </h5>
-                <p className="card-text card-text-para">
+                <p className="card-text scheme-card-text">
                   The Government has taken another giant leap towards boosting pro-farmer
                   initiatives. With the recent approval of the umbrella scheme Pradhan Mantri
                   Annadata Aay SanraksHan Abhiyan (PM-AASHA), that is aimed towards ensuring
@@ -263,11 +264,11 @@ const Landing = () => {
               </div>
             </div>
             <div className=" card-top col-sm">
-              <div className="card-body">
+              <div className="card-body  scheme-body">
                 <h5 className="card-title">
                   Pradhan Mantri Awaas Yojana (Gramin){" "}
                 </h5>
-                <p className="card-text">
+                <p className="card-text scheme-card-text">
                   Pradhan Mantri Awas Yojana Urban (PMAY-U), a flagship Mission of Government
                   of India being implemented by Ministry of Housing and Urban Affairs (MoHUA),
                   was launched on June 2015. The Mission addresses urban housing shortage
@@ -277,11 +278,11 @@ const Landing = () => {
               </div>
             </div>
             <div className=" card-top col-sm">
-              <div className="card-body">
+              <div className="card-body  scheme-body">
                 <h5 className="card-title">
                   National Rurban Mission (NRuM) Vision
                 </h5>
-                <p className="card-text">
+                <p className="card-text scheme-card-text">
                   The Mission aims at development of 300 Rurban clusters, in thenext five years.
                   These clusters would be strengthened with therequired amenities, for which it is
                   proposed that resources be mobilized through convergence of various schemes of the
@@ -293,8 +294,61 @@ const Landing = () => {
           </div>
         </div>
 
-  
-      
+
+        <div className="how-to-use">
+          <h3>How to use </h3>
+          <h6 classname="how-to-use-heading">Easy steps to apply Governments scheme</h6>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card how-to-use-card">
+                <div class="card-body how-to-use-card-body">
+                  <h5 class="card-title">Enter Details</h5>
+                  <img src="img/details.svg" class="card-img-top" alt="..." />
+                  <p class="card-text">Start by entering basic details</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card how-to-use-card">
+                <div class="card-body how-to-use-card-body">
+                  <h5 class="card-title">Search</h5>
+                  <img src="img/search.svg" class="card-img-top" alt="..." />
+                  <p class="card-text"> Find the relevant schemes!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card how-to-use-card">
+                <div class="card-body how-to-use-card-body">
+                  <h5 class="card-title">Select & Apply</h5>
+                  <img src="img/apply.svg" class="card-img-top" alt="..." />
+                  <p class="card-text">Choose & apply for the scheme</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div className="about">
+          <span className="about-heading">
+            About
+          </span>
+          <div className="row">
+            <div className="col md-6 about-para">
+              <p className="para-text"> Shwayam-jagruti is a National Platform that aims to offer one-stop search and discovery of the Government schemes.
+
+                It provides an innovative, technology-based solution to discover scheme information based upon the eligibility of the citizen.
+                 In which you have to enter the basic details.
+                The platform helps the citizen to find the right Government schemes for them. It also guides on how to apply for different Government schemes. Thus no need to visit multiple Government websites.</p>
+            </div>
+            <div className="col md-6">
+            <img src="img/aboutus.svg" alt="" />
+
+            </div>
+          </div>
+        </div>
+
 
         <div className="Footer-pre">
           <span></span>

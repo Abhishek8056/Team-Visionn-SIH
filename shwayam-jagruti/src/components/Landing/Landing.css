@@ -107,7 +107,7 @@ img.landing-img {
 .top-scheme-row {
   margin-top: 30px;
 }
-.card-body {
+.scheme-body {
   text-align: center;
   background-color: #d9d9d9;
   padding: 25px;
@@ -117,7 +117,7 @@ img.landing-img {
 .card-title {
   font-size: 35px;
 }
-.card-text {
+.scheme-card-text{
   margin-top: 20px;
   font-size: 20px;
   border-radius: 15px;
@@ -185,16 +185,47 @@ img.landing-img {
 }
 /*==== how to use =====*/
 .how-to-use-card{
-  max-width: 15rem;
-  max-height: 13rem;
+  max-width: 20rem;
+  background-color: white;
+  height: 12rem;
+  margin-bottom: 30px;
+  align-items: center;
+  margin-right: 30px;
+}
+.card-text{
+  text-align: center;
+  font-weight: 500;
 }
 img.card-img-top{
-  max-width: 10rem;
+  max-width: 5rem;
 align-items: center;}
 h3{
   text-align: center;
   font-weight:400;
+  font-size: 50px;
+}
+h6{
+  font-size: 20px;
+  text-align:center;
 }
 h5{
-  font-size: medium;
+  font-size: 15px;
+}
+.how-to-use-card-body{
+  background-color: white;
+  box-shadow: none;
+}
+/*========== about us ===========*/
+.about{
+  margin-top: 30px;
+}
+.about-heading{
+  font-size:30px;
+  color: rgb(12, 165, 204);
+}
+.about-para{
+  margin-top: 20px;
+}
+p.para-text{
+  font-weight: 400;
 }

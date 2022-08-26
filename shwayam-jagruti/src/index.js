@@ -12,6 +12,7 @@ import Dashboard from "./Components/Register_login_page/Dashboard";
 // import PublicRoute from "./Components/Register_login_page/PublicRoute";
 import ChangePassword from "./Components/Register_login_page/ChangePassword";
 import UserDetails from "./Components/Register_login_page/UserDetails";
+import DeapartDashboard from './Components/DepartmentDashboard/DeapartDashboard';
 // import { Navigate } from "react-router-dom";
 ReactDOM.render(
 
@@ -25,8 +26,8 @@ ReactDOM.render(
      <Route path="/Dashboard" element={<Dashboard/>}/>
      <Route path="/Dashboard/ChangePassword" element={<ChangePassword/>} />
      <Route path="/UserDashboard" element={<UserDashboard/>} />
-     
-     
+    
+     <Route path="/DeapartDashboard" element={<DeapartDashboard/>} /> 
     </Routes>
   </Router>,
 

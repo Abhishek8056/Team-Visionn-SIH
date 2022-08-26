@@ -40,7 +40,7 @@ const rafce = () => {
                             <img src={department} className="card-img-LoginDashboard" alt="..." />
                         </div>
                         <div className="card-login-btn">
-                        <Link type="button" className="btn eligibility login-btn btn-link" to="/Login">Login</Link>
+                        <Link type="button" className="btn eligibility login-btn btn-link" to="/DeapartDashboard">Login</Link>
 
                         </div>
 
